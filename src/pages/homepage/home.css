@@ -1,0 +1,273 @@
+.homepage{
+    width: 100%;
+    padding: 30px 0px;
+    z-index:999;
+}
+h1{
+    color: var(--blackColor);
+    font-family: var(--textFamily);
+    font-size: 50px!important;
+    font-weight: bold;
+}
+h1 span{
+    color: var(--purpleColor)
+}
+
+/* css for home introduction */
+.home-img{
+    position: relative;
+}
+.home-img img{
+    position:relative;
+    width: 100%;
+
+}
+.home-img .home-img-banner{
+    position: absolute;
+    top: 30%;
+    /* text-transform: translate(-50%, -50%); */
+}
+.home-img-hi{
+    font-size:50px;
+    font-family: var(--textFamily);
+    color: var(--blackColor);
+    font-weight: bold;
+}
+.home-img-hi2{
+    color:var(--purpleColor);
+    font-size:50px;
+    font-weight: 700;
+    font-family: var(--textFamily);
+}
+
+.home-introduction {
+    background-color: var(--primaryColor);
+}
+.home-container{
+    padding: 30px 0px;
+    max-width: 500px;
+}
+.home-title-cursive{
+    font-family: var(--cursiveFamily);
+    color: var(--blackColor);
+    font-size: 50px;
+    font-weight: 700;
+}
+.home-container p{
+    color: var(--blackColor);
+    line-height: 30px;
+    font-family: var(--textFamily);
+}
+
+/* homeabout in homepage starts here */
+.home-about{
+    margin-top:90px;
+    background:#faccc1;
+    padding:20px 0px;
+}
+.home-about-image{
+    padding: 30px 0px;
+}
+.home-about-image img{
+    border-radius: 5px;
+    width: 90%;
+    height: 400px;
+}
+.home-about-text{
+    padding: 30px 0px;
+}
+.home-about-text h1{
+    font-family: var(--textFamily);
+    color: var(--purpleColor);
+    font-size: 50px;
+}
+.home-about-text p{
+    color: var(--blackColor);
+    font-family: var(--textFamily);
+    font-size: 17px;
+    line-height: 30px;
+    text-align: justify;
+    
+}
+.home-about-text p span{
+    display: block;
+    color:var(--purpleColor);
+    font-family: var(--cursiveFamily);
+    font-size: 35px;
+    padding-top: 20px;
+}
+.button{
+    text-align: center;
+}
+.navlinks-btn{
+    color: var(--blackColor);
+    text-decoration: none;
+    font-family: var(--textFamily);
+    font-size: 17px;
+    padding: 8px 23px;
+    border: 2px solid var(--primaryColor);
+    border-radius: 5px;
+    transition: 0.4s all ease;
+    background-color: transparent;
+}
+.navlinks-btn:hover{
+    background-color: var(--purpleColor);
+    border: none;
+    color: #fff;
+}
+
+/* homeschedule css starts here */
+.home-schedule{
+    margin-top: 90px;
+    background-color:  var(--primaryColor);
+    text-align: center;
+    padding:30px 0px;
+}
+.home-schedule h1{
+    font-size:50px;
+    padding: 10px 0px 40px 0px;
+}
+.schedule-btn{
+    background: var(--purpleColor);
+    color:#fff;
+    border:none;
+}
+.schedule-btn:hover{
+    background: transparent;
+    border: 2px solid var(--purpleColor);
+}
+/* css for home-card */
+.home-card{
+    margin-top: 90px;
+    background:#C8DBA8;
+    padding: 30px 0px;
+}
+.home-card-title{
+    font-family: var(--cursiveFamily);
+    color: var(--blackColor);
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.home-card-title span{
+    position: relative;
+    top:-30px;
+    color:var(--purpleColor);
+    letter-spacing: -1px;
+    font-size: 35px;
+}
+.card-text{
+    color:var(--blackColor);
+    font-size: 20px;
+    font-family: var(--textFamily);
+    text-align: center;
+    font-weight: 500;
+}
+.card-navlink{
+    text-decoration: none;
+}
+.card-arrow{
+    background: var(--backgroundColor);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top:-30px;
+    justify-content: right;
+    padding: 10px;
+    display: flex;
+    left: 80%;
+}
+.icon-arrow{
+    text-align: center;
+    font-size: 30px;
+    color:var(--purpleColor);   
+}
+.card-style{
+    width:100%;
+    margin:0 auto;
+    position: relative;
+    overflow:hidden;
+    background: transparent;
+    /* padding:10px 10px 0px 10px; */
+}
+.card-img{
+    height: 250px;
+}
+.card-img2{
+    height:350px;
+}
+.card-style:hover .card-hover{
+    top:0;
+}
+.card-style2 .card-hover{
+    height:400px;
+}
+.card-style .card-hover{
+    position: absolute;
+    top: calc(100% - 3px);
+    left:0;
+    width: 100%;
+    height: 360px;
+    background: linear-gradient(180deg, rgba(224, 211, 25, 0.877), rgba(220, 236, 73, 0.582));
+    z-index:1;
+    transition:0.5s
+}
+/* jesus text starts here */
+.jesustext{
+    padding: 20px 0px 10px 0px;
+    color:var(--blackColor);
+    font-size: 25px;
+    font-family: var(--textFamily);
+}
+/* css for home blog starts here */
+.home-blog-design{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    grid-row-gap:2rem;
+    grid-column-gap: 38px;
+}
+.home-blog{
+    padding: 30px 0px
+}
+.home-blog-heading{
+    font-size: 50px;
+    font-family: var(--cursiveFamily);
+    color: var(--blackColor);
+    font-weight: 700;
+    padding: 5px 0px 20px 0px;
+}
+.home-blog-heading span{
+    color: var(--purpleColor);
+}
+.home-blog-card img{
+    border-radius: 10px;
+    height: 300px;
+}
+.home-blog-content{
+    display: flex;
+}
+.home-blog-content .title{
+    font-size: 18px;
+    color:var(--blackColor);
+    font-weight: 700;
+    padding-top: 10px;
+    font-family: var(--textFamily);
+    text-align:center;
+}
+.home-blog-content .blog-text{
+    color:var(--blackColor);
+    font-size: 15px;
+    font-family:var(--textFamily);
+}
+.blog-button{
+    text-align: center;
+}
+@media screen and (max-width: 850px){
+    h1{
+        font-size: 35px;
+       
+    }
+}

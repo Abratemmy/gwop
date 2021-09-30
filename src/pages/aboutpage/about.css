@@ -1,0 +1,147 @@
+
+.about-banner{
+    background:linear-gradient(180deg, rgba(218, 233, 11, 0.445), rgba(241, 226, 7, 0.438)),url("../../images/img7.jpg");
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-attachment: fixed; 
+}
+.about-container{
+    width:100%;
+    padding:80px 0px 40px 0px;
+}
+.newabout-img{
+
+}
+.newabout-img img{
+    width: 100%;
+    border-radius: 10%;
+}
+.newabout-title{
+    font-family: var(--textFamily);
+    font-size: 50px;
+    font-weight: 700;
+    color:var(--purpleColor);
+}
+.newabout-text{
+    padding: 20px;
+    text-align: justify;
+    font-size: 17px;
+    font-family: var(--textFamily);
+    color:var(--blackColor);
+    line-height: 30px;
+}
+/* .newabout-text{
+    color: var(--purpleColor);
+    font-weight: bold;
+    font-size: 20px;
+} */
+.newabout-continue{
+    font-size: 30px;
+    color:var(--purpleColor);
+    font-weight: bold;
+}
+.newabout-text span{
+    font-family:var(--cursiveFamily);
+   
+}
+
+/* another section starts here*/
+.about-session{
+    padding:10px 0px 50px 0px;
+}
+.about-social{
+    font-size: 50px;
+    font-family: var(--cursiveFamily);
+    color: var(--blackColor);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.about-social span{
+    color:var(--purpleColor)
+}
+.about-social-container{
+    width:100%;
+    height:300px;
+    position: relative;
+}
+.about-social-container img{
+    width:100%;
+    height:300px;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.4s all ease;
+}
+
+.about-social-text{
+    border:5px solid var(--purpleColor);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    opacity:1!important;
+    width:70%;
+    height:200px;
+    font-family: var(--cursiveFamily);
+    color:#fff;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 30px;
+}
+
+.about-social-text-linkedin{
+    color:var(--primaryColor);
+    opacity: 1!important;
+
+}
+.about-social-icon{
+    position: absolute;
+    bottom: 20px;
+    padding-left:10px
+}
+.about-social-icon .about-icon{
+    background:var(--primaryColor);
+    font-size: 20px;
+    width:30px;
+    height:30px;
+    padding: 4px;
+    border-radius: 4px;
+    color:#fff;
+}
+.about-social-container:hover img{
+    transform: scale(1.05);
+    opacity:0.3
+}
+
+/* .aboutpage{
+    padding: 30px 0px ;
+}
+.aboutpage .about-title{
+    color: var(--purpleColor);
+    font-family: var(--textFamily);
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+.about-image img{
+    width: 100%;
+    height:350px;
+    display: block;
+   
+}
+.about-content{
+    position: relative;
+}
+
+.aboutfamily{
+    position: relative;
+    top: -50px;
+}
+.aboutpage .about-text{
+    text-align: justify;
+    color: var(--blackColor);
+    font-size: 17px;
+    line-height: 30px;
+    font-family:  var(--textFamily);
+} */
