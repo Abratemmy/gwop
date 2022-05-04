@@ -33,6 +33,17 @@
     padding:0;
     margin:0;
 }
+.footer-text .footer-mail{
+    text-decoration: none;
+    color: var(--purpleColor);
+    font-size: 17px;
+    font-style: italic; 
+    transition: 0.4s all ease;
+}
+.footer-text .footer-mail:hover{
+    color: var(--blackColor);
+    font-style: normal;
+}
 .footer-text ul li{
     list-style: none;  
     padding-bottom: 8px;  

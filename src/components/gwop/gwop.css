@@ -1,0 +1,114 @@
+#home{
+    position: relative;
+}
+.gwopbackground-pic{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+.gwopbg{
+    width: 100%;
+    height: 120vh;
+    background:linear-gradient(180deg, rgba(218, 233, 11, 0.445), rgba(241, 226, 7, 0.438)), url("https://res.cloudinary.com/hayteetech/image/upload/v1640536097/Joyagunbiade.com/gwopbg_tq0bcl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center center;
+    /* background-attachment: fixed;   */
+    object-fit: cover; 
+}
+.gwopbg .bg-text{
+    font-family: var(--cursiveFamily);
+    font-size: 50px;
+    color: var(--blackColor);
+    padding-top: 50px;
+}
+.gwopbg .bg-text span{
+    display: block;
+}
+.gwopbg .gwopvertical{ 
+    position: absolute;
+    top: 250px;  
+    text-align: right;
+    right: 100px!important;  
+    height: 330px; 
+    font-family: var(--cursiveFamily); 
+    font-size: 33px;
+    color:rgb(121, 118, 118);
+    line-height: 29px;
+    writing-mode: vertical-rl;
+    text-orientation: use-glyph-orientation;
+}
+.about-gwop{
+    padding-bottom: 40px;
+    background:#fff;
+}
+.title{
+    padding-top: 40px;
+    text-align: center;
+    font-family: var(--textFamily);
+    font-weight: 600;
+    color: var(--blackColor);
+    letter-spacing: -1px;
+}
+
+.about-gwop .gwop-text{
+    justify-content: center;
+    font-family: var(--textFamily);
+    color: var(--blackColor);
+    font-size: 17px;
+    padding: 15px 0px;
+    line-height: 35px;
+    text-align: justify;
+}
+.arrow{
+    font-size: 25px;
+    color: var(--blackColor)
+}
+.gwop-success{
+    background: rgb(224, 224, 224);
+}
+.gwopsuccesslist{
+    padding: 20px 0px;
+}
+.gwopsuccesslist .sub-title{
+    color: var(--blackColor);
+    padding: 15px 0px;
+    font-family: var(--textFamily);;
+    font-size: 18px;
+    font-weight: 600;
+}
+.gwopsuccesslist ul li{
+    padding: 10px 0px;
+    font-family: var(--textFamily);
+    font-size: 17px;
+    color: var(--blackColor)
+}
+
+/* gwop quote */
+.gwop-quote{
+    background: var(--primaryColor);
+    padding: 30px 0px;
+}
+.quote-icon{
+    color: var(--purpleColor);
+    font-size: 20px;
+}
+.gwop-quote p{
+    font-size: 17px;
+    font-family: var(--textFamily);
+    line-height: 30px;
+    color: var(--blackColor);
+    text-align: justify;
+}
+
+@media screen and (max-width:760px){
+    .gwopbg .gwopvertical{
+        display: none
+    }
+    .gwopbg .bg-text{
+        font-family: var(--cursiveFamily);
+        font-size: 30px;
+        color: var(--blackColor);
+        padding-top: 50px;
+    }
+}

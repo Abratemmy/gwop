@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
 import "./Footer.css";
 import {FaInstagram} from 'react-icons/fa';
-import {RiLinkedinFill} from 'react-icons/ri'
+import {RiLinkedinFill} from 'react-icons/ri';
+// import logo from "../../images/logo.png"
 
 export class Footer extends Component {
     render() {
@@ -12,11 +12,12 @@ export class Footer extends Component {
                     <div className="row">
                         <div className="col-lg-4 col-md-12 col-sm-12">
                             <div className="footer-container">
-                                <div className="footer-logo">
-                                    <NavLink to="/jaweb/" className="footer-logo-nav"><img src="" alt="JoyLogo" /></NavLink>
-                                </div>
+                            <div className="footer-title">About</div>
+                                {/* <div className="footer-logo">
+                                    <a href="https://joyagunbiade.com" className="footer-logo-nav"><img src="{logo}" alt="JoyLogo" /></a>
+                                </div> */}
                                 <div className="footer-about">
-                                    <p>Joy Agunbiade have a strong passion for people discovering their purpose and walking in it fully . . .</p>
+                                    <p>Joy Agunbiade has a strong passion for people discovering their purpose and walking in it fully . . .</p>
                                 </div>
                             </div>
                         </div>
@@ -25,10 +26,10 @@ export class Footer extends Component {
                                 <div className="footer-title">Quick Links</div>
                                 <div className="footer-text">
                                     <ul>
-                                        <li><NavLink to="/jaweb/blogs" className="footer-link">Blog</NavLink></li>
-                                        <li><NavLink to="/jaweb/podcast" className="footer-link">Podcast</NavLink></li>
-                                        <li><NavLink to="/jaweb/events" className="footer-link">Events</NavLink></li>
-                                        <li><NavLink to="/jaweb/speaking" className="footer-link">Speaking</NavLink></li>
+                                        <li><a href="https://joyagunbiade.com/speaking_request" className="footer-link">Speaking</a></li>
+                                        <li><a href="https://open.spotify.com/show/5o1MOtBi5EqZcmczN7RRt9" className="footer-link">Podcast</a></li>
+                                        {/* <li><NavLink to="/jaweb/shop" className="footer-link">Shop</NavLink></li> */}
+                                        <li><a href="https://joyagunbiade.com/contact" className="footer-link">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -37,7 +38,7 @@ export class Footer extends Component {
                             <div className="footer-container">
                                 <div className="footer-title">Contact-info</div>
                                 <div className="footer-text">
-                                    <span>Email:</span> joyagunbiade.com
+                                    <span>Email: </span> <a href="mailto:joyagunbiadeweb@gmail.com" target="_blank"  rel="noopener noreferrer" className="footer-mail">joyagunbiadeweb@gmail.com</a>
                                 </div>
                                 <div className="footer-text">
                                     <ul className="footer-social">

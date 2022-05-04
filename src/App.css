@@ -9,10 +9,50 @@
   --indieFamily: 'Indie Flower', cursive;
   --headingFamily:'Quicksand', sans-serif;
   --textFamily: 'Lato', sans-serif;
-  --purpleColor:rgb(172, 11, 187);
-  --primaryColor: #fed772;
+  --purpleColor:#be0bce;
+  --primaryColor: #f3b10a;
   --backgroundColor: rgb(245, 245, 164);
 }
 body{
-  background: #f9f6e5;
+  background: #fff;
+}
+.bodyDark{
+  background: linear-gradient(180deg, rgba(12, 12, 12, 0.445), rgba(8, 8, 8, 0.438));
+}
+.bg-button{
+  margin: 30px 0px 30px 0px!important;
+}
+.bg-navlinkbtn{
+  text-decoration: none;
+  background: var(--purpleColor);
+  color:#fff;
+  padding: 15px 10px;
+  border-radius: 4px;
+  transition: 0.4s all ease;
+  font-size: 20px;
+}
+.bg-navlinkbtn:hover{
+  color:var(--purpleColor);
+  background: #fff;
+}
+.loading{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 30px 0px;
+}
+.loading::after{
+  content: "";
+  width: 50px;
+  height: 50px;
+  border: 10px solid #dddddd;
+  border-top-color: var(--primaryColor);
+  border-bottom-color: var(--purpleColor);
+  border-radius: 50%;
+  animation: loading 1s linear infinite!important;
+}
+@keyframes loading {
+  to{
+      transform:rotate(1turn);
+  }
 }
