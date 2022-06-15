@@ -91,17 +91,6 @@ export class Successtories extends Component {
                     </div>
                 </div>
 
-                <div className="event-schedule"  id="successStories" style={{marginBottom:"30px"}}>
-                    <div className="container" >
-                        <div className="bg-button" style={{textAlign:"center"}}>
-                            <a href="https://us20.list-manage.com/contact-form?u=2080aebe8d57f05901717ffc6&form_id=d98a92d344db8f30b7ca3f5ddcf79bd4" className="bg-navlinkbtn" style={{border:"none"}} >
-                                <span>Join Our GWOP program </span>
-                            </a>
-                        </div>                  
-                    </div>
-                </div>
-
-
                 {this.state.loading ? (<div>
                         <div className="loading" style={{paddingBottom: "30px"}}></div>
                     </div>) : (

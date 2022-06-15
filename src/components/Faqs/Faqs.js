@@ -8,11 +8,11 @@ function Faqs(index) {
 
         {
             question:'Who is the program for?',
-            answer:"The program is for everyone that want to work according to God's purpose for their lifes.",
+            answer:"The program is for everyone that wants to work according to God's purpose for their lifes.",
             open:false
         },
         {
-            question:'What do i stand to gain if I join the program? ',
+            question:'What do I stand to gain if I join the program? ',
             answer:'A lot of profitable things to gain',
             answer1:'You will gain alot',
             open:false
@@ -21,23 +21,17 @@ function Faqs(index) {
         {
             question:"When does the program commence ",
             answer:"Every month  ",
-            answer1:"Sometimes, we may suggest a legal audit (which is a simple process) first, so that we can do a gap-analysis and advise on what Services you require to scale up.",
+            answer1:"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
             answer2:"",
             open:false
         },
-        {
-            question:"How are Clients billed, at Evernall – What if I cannot afford the Services? ",
-            answer:"",
-            answer1:"Payments for retainership or packages can be made in instalments too.",
-            open:false
-        },
+        
         {
             question:"I have more questions?",
             answer:"No worries, Send an email to us at joyagunbiadeweb@gmail.com. We will be glad to receive your questions and get back in touch with you. ",
             answer1:'You can contact us directly',
             link:'Here',
             answer2:'',
-            answer3:'',
             open:false
         }    
 
@@ -104,8 +98,7 @@ function Faqs(index) {
 
                                                             <div style={{marginTop:'20px'}}>{faq.answer1}<span> <a href="https://joyagunbiade.com/contact">{faq.link}</a></span></div>
                                                             <div style={{marginTop:'20px'}}>{faq.answer2}</div>
-                                                            <div style={{marginTop:'20px'}}>{faq.answer3}</div>
-                                                            <div style={{marginTop:'20px'}}>{faq.answer4}</div>
+                                                           
                                                         </div>
                                                     </div>
 

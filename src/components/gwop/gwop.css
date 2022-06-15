@@ -5,6 +5,7 @@
     width: 100%;
     height: 450px;
     overflow: hidden;
+    z-index: 999!important;
 }
 .gwopbg{
     width: 100%;
@@ -13,21 +14,21 @@
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center center center;
-    /* background-attachment: fixed;   */
     object-fit: cover; 
 }
 .gwopbg .bg-text{
     font-family: var(--cursiveFamily);
-    font-size: 50px;
+    font-size: 55px;
     color: var(--blackColor);
     padding-top: 50px;
+    line-height: 53px;
 }
 .gwopbg .bg-text span{
     display: block;
 }
 .gwopbg .gwopvertical{ 
     position: absolute;
-    top: 250px;  
+    top: 200px;  
     text-align: right;
     right: 100px!important;  
     height: 330px; 
@@ -94,11 +95,12 @@
     font-size: 20px;
 }
 .gwop-quote p{
-    font-size: 17px;
-    font-family: var(--textFamily);
+    font-size: 30px;
+    font-family:  var(--cursiveFamily);
     line-height: 30px;
     color: var(--blackColor);
     text-align: justify;
+    font-weight: 550
 }
 
 @media screen and (max-width:760px){
@@ -110,5 +112,13 @@
         font-size: 30px;
         color: var(--blackColor);
         padding-top: 50px;
+        line-height: 40px
+    }
+    .about-gwop .gwop-text{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .gwopsuccesslist ul li{
+        font-size: 16px;
     }
 }

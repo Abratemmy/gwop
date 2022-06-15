@@ -34,7 +34,7 @@ function Navbar() {
                             <li><Link to ='story'activeClass="active" spy="true" offset={-100} duration={1000} className=" navbar-link" onClick={handleClick}>Success Story</Link></li>
                             <li><Link to='faq'activeClass="active" spy="true" offset={-100} duration={1000}  className=" navbar-link" onClick={handleClick}>FAQs</Link></li>
                             <li><a href= 'https://joyagunbiade.com'activeClass="active" spy="true"  className=" navbar-link" onClick={handleClick}>Joy Agunbiade</a></li>
-                            <li><a href= 'https://ges.joyagunbiade.com'activeClass="active" spy="true"  className=" navbar-link" onClick={handleClick}>Hr Consulting</a></li>
+                           
                             
                         </ul>
                         <div className="nav-icon" onClick={handleClick}>

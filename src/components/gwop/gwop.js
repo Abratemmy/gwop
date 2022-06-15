@@ -13,7 +13,7 @@ function Gwop() {
                 <div className="gwopbg">
                     <div className="container">
                         <div className="bg-text">
-                            Ready to Live <span>Meaningfully?</span>
+                            Ready to discover and <span>grow in your purpose?</span>
                         </div>
 
                         <div className="bg-button" style={{paddingTop:"40px"}}>

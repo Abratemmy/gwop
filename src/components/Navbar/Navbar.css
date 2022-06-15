@@ -40,10 +40,12 @@
     color: var(--purpleColor);
     border: none;
     transition: 0.2s all ease;
-    font-size: 18px;
     font-family: var(--textFamily);
-    font-weight: 600;
     text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    /* line-height: 1.4; */
+    text-transform: uppercase;
 }
 
 .navbar-link:hover{
@@ -151,5 +153,20 @@
     .nav-icon:hover ul{
         display: block;
         margin-top: 50px;
+    }
+}
+@media screen and (max-width:760px){
+    .Navbar{   
+        align-items: center;
+        padding:0px 40px 0px 10px;
+    }
+    .logo{
+        align-items: left!important;
+        margin-left:5px;  
+        
+    }
+    .logo img{
+        width: 95%;
+        height:85px; 
     }
 }

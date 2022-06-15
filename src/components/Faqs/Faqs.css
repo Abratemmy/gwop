@@ -51,7 +51,7 @@
     font-size: 17px; 
     font-family: var(--textFamily);
     font-weight: 500;
-    background:  rgb(224, 224, 224);
+    background:  rgb(238, 237, 237);;
     text-align: justify;
     padding: 5px 10px;
     line-height: 30px;
@@ -78,4 +78,35 @@
 .faqs  .open .faq-answer{
     max-height: 1000px;
     opacity: 1;
+}
+
+@media screen and (max-width: 760px){
+    .faqs .faq-question {
+        position: relative;
+        font-size: 16px;
+        
+    } 
+    .faqs  .faq-answer{
+        font-size: 16px; 
+        font-family: var(--textFamily);
+        font-weight: 500;
+        background:  rgb(238, 237, 237);
+        text-align: left;
+        cursor: default;
+        height: auto;    
+    }
+    .faqs  .faq-question::after{
+        content:'';
+        position: absolute;
+        top: 52%;
+        right: 0px;
+        transform:translateY(-50%);
+        width: 25px;
+        height: 25px;  
+        background-image: url("../arrows.PNG");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: all 0.4s ease;
+    }
 }
