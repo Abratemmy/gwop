@@ -51,7 +51,7 @@
     font-size: 17px; 
     font-family: var(--textFamily);
     font-weight: 500;
-    background:  rgb(238, 237, 237);;
+    background:  rgb(228, 227, 227);
     text-align: justify;
     padding: 5px 10px;
     line-height: 30px;
@@ -90,7 +90,7 @@
         font-size: 16px; 
         font-family: var(--textFamily);
         font-weight: 500;
-        background:  rgb(238, 237, 237);
+        background:  rgb(228, 227, 227);
         text-align: left;
         cursor: default;
         height: auto;    
