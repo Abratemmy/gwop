@@ -7,6 +7,22 @@
     overflow: hidden;
     z-index: 999!important;
 }
+.general-btn{
+    display: flex;
+    gap: 1rem
+}
+
+@media screen and (max-width: 450px) {
+    .general-btn{
+        display: flex;
+        gap: 1px;
+        flex-direction: column;
+    }
+}
+/* .bg-button-eBook{
+    background: #fff;
+
+} */
 .gwopbg{
     width: 100%;
     height: 120vh;
@@ -122,3 +138,4 @@
         font-size: 16px;
     }
 }
+

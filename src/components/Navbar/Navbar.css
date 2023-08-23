@@ -157,16 +157,19 @@
 }
 @media screen and (max-width:760px){
     .Navbar{   
-        align-items: center;
+        align-items: left;
         padding:0px 40px 0px 10px;
     }
     .logo{
         align-items: left!important;
-        margin-left:5px;  
+        margin-left:0px; 
+        text-align: left;
+        width: 32%;
         
     }
     .logo img{
-        width: 95%;
+        width: 100%;
         height:85px; 
+        text-align: left;
     }
 }

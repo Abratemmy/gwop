@@ -30,10 +30,20 @@ body{
   border-radius: 4px;
   transition: 0.4s all ease;
   font-size: 20px;
+  border: none;
 }
 .bg-navlinkbtn:hover{
   color:var(--purpleColor);
   background: #fff;
+}
+.bg-button-eBook .bg-navlinkbtn{
+  background: #fff;
+  color: var(--purpleColor);
+  cursor: pointer;
+}
+.bg-button-eBook .bg-navlinkbtn:hover{
+  background:var(--purpleColor);
+  color:#fff
 }
 .loading{
   display: flex;

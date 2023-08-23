@@ -1,0 +1,162 @@
+.formpopupBody{
+    position: absolute;
+    width: 70%;
+    min-width: 95%;
+    height: 550px;
+    overflow-y: auto;
+    background:#fff;
+    padding:20px 20px;
+    border-radius: 8px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin:auto;
+
+  }
+.popupContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(36, 37, 39, 0.788);
+    /* text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.12); */
+    z-index: 999;
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 5% 0px;
+   
+}
+.containerWrapper{
+    padding: 20px 0px;
+}
+.book .heading{
+    text-align: center;
+    font-family: var(--headingFamily);
+    text-decoration-line: underline;
+     text-decoration-style: double;
+     text-decoration-color: var(--purpleColor);
+     color: var(--blackColor);
+     font-size: 22px;
+}
+.book .close-Btn{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.book .close-Btn .close{
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s all ease;
+}
+.book .close-Btn .close:hover{
+    background: var(--purpleColor);
+}
+.containerWrapper .cardWrapper{
+    display: flex!important;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 15px 0px;
+    gap: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background: rgba(236, 236, 236, 0.507);
+}
+.containerWrapper .cardWrapper .image{
+    width: 100%!important;
+    height: 180px;
+    flex:2;
+    background: rgba(170, 169, 169, 0.507);
+    border-radius: 8px;
+}
+
+.containerWrapper .cardWrapper .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+}
+.wrapper{
+    flex: 7;
+}
+.containerWrapper .name{
+    font-size: 20px;
+    font-family: var(--headingFamily);
+    color: var(--blackColor);
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+     text-decoration-color: var(--purpleColor);
+     text-decoration-style: double;
+     padding-bottom: 10px;
+}
+.containerWrapper .text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.containerWrapper .author{
+    position: relative;
+    top:-2px;
+    color: rgb(212, 210, 210);
+    font-size: 14px;
+    font-family: var(--textFamily);
+}
+.containerWrapper .postcontent{
+    text-align: justify;
+    color: var(--blackColor);
+    font-size: 14px;
+    line-height: 28px;
+    font-family: var(--textFamily);
+}
+.containerWrapper a{
+    text-decoration: none;
+}
+.containerWrapper .download{
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid var(--purpleColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--textFamily);
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 0px;
+    transition: 0.4s all ease;
+    background: var(--primaryColor);
+    color: var(--purpleColor)
+}
+.containerWrapper .download:hover{
+    background: var(--purpleColor);
+    color:#fff;
+}
+@media screen and (max-width: 500px) {
+    .containerWrapper .cardWrapper{
+        flex-direction: column;
+    }
+    .containerWrapper .cardWrapper .image{
+        width: 100%!important;
+        height: auto;
+    }
+    .containerWrapper .text{
+        flex-direction: column;
+        gap:10px
+    }
+}
+@media screen and (max-width: 800px) {
+    .containerWrapper .cardWrapper .image{
+        flex: 4
+    }
+}
