@@ -60,6 +60,7 @@ class App extends Component {
         return (
             <div>
                 <Navbar />
+
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSeJtlzsaF-Any6BAKpQe2XsOJ5k1DGz7eRp8eDb_pA8wVPGRQ/viewform" target="_blank" rel="noreferrer" className="popup-link">
                     <div className={this.state.scrolled ? 'no-show popup' : 'no-show'}>
                         Join GWOP
