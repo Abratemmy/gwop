@@ -5,7 +5,7 @@ import { FaLightbulb } from "react-icons/fa";
 import gwop from "../../file/gwop.pptx"
 import Book from '../Book/Book';
 
-function Gwop({ data, loading }) {
+function Gwop() {
     const [openBook, setOpenBook] = useState(false);
     const openBookHandler = () => {
         setOpenBook(true)
@@ -133,7 +133,7 @@ function Gwop({ data, loading }) {
                 {openBook && (
                     <div className='popupContainer'>
                         <div className='formpopupBody' onClick={(e) => e.stopPropagation()}>
-                            <Book data={data} loading={loading} closeBtn={() => setOpenBook(false)} />
+                            <Book closeBtn={() => setOpenBook(false)} />
                         </div>
                     </div>
                 )}
